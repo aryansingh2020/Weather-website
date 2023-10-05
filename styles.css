@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    background-color: cadetblue;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+}
+#input-field{
+    position:relative;
+    color:blue;
+    font-size:large;
+}
+#btn-search{
+    color:white;
+    background-color: darkorange;
+    font-size:large;
+}
+#result{
+    background-color: rgb(238, 228, 228);
+    font-size: large;
+    height:40px;
+    width:130px;
+    margin-top:10px;
+    border-radius: 5px;
+}
